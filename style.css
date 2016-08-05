@@ -1,0 +1,118 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #565d66;
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  color: #dadbdd;
+  font-size: 14px;
+  height: 50px;
+
+}
+
+.top {
+  display: flex;
+  border-bottom: 1px solid #eaedf2;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navbar {
+  height: 60px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  position: relative;
+  top: 20%;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#title {
+  margin-left: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  /*width: 340px;*/
+  font-size: 50px;
+}
+
+#title img {
+  width: 40px;
+  height: auto;
+  padding-right: 5px;
+}
+
+.email-button {
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.email-button img {
+  width: 50px;
+  height: auto;
+}
+
+main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  width: 800px;
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  color: #131824;
+  font-weight: 200;
+}
+
+.picture {
+
+  border-bottom: 1px solid #eaedf2;
+  padding: 30px;
+  display: flex;
+}
+
+.big {
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.small {
+  margin-top: 40px;
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.tiny {
+  width: 30px;
+  height: 30px;
+}
+
+.cluster {
+  padding: 20px;
+}
+
+.content {
+  margin-top: 30px;
+  padding-bottom: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  border-bottom: 1px solid #eaedf2;
+}
+
+.projects {
+  text-align: center;
+  font-weight: 200;
+}
